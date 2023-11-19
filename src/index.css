@@ -352,3 +352,195 @@ textarea {
   margin: 0;
   font-size: 15px;
 }
+
+/* Responsive styles for tablets */
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navigation a {
+    margin: 0 20px;
+  }
+
+  .cap-logo-content {
+    height: 400px;
+  }
+
+  .cap-logo-text {
+    padding: 0 20px;
+  }
+
+  .button button {
+    padding: 14px 40px;
+  }
+
+  .main-content {
+    margin: 0 10px;
+  }
+
+  .home-right-side-content {
+    margin: 10px 20px;
+  }
+
+  .form-area {
+    flex-direction: column;
+  }
+
+  .text-area {
+    margin: 0;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  .cap-logo-right {
+    height: 150px;
+  }
+
+  .big-3,
+  .two-big {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-3 img,
+  .two-big img {
+    height: 150px;
+    margin: 10px 0;
+  }
+
+  .big-3 h1,
+  .two-big h1 {
+    font-size: 16px;
+  }
+
+  .big-3 h2,
+  .two-big h2 {
+    font-size: 12px;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 2px 10px;
+  }
+
+  .navigation a {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .cap-logo-content {
+    height: 300px;
+  }
+
+  .cap-logo-text {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .button button {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .main-content {
+    margin: 0 5px;
+  }
+
+  .home-right-side-content {
+    margin: 10px 10px;
+  }
+
+  .text-area button {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .cap-logo-right {
+    height: 100px;
+  }
+
+  .big-3 img,
+  .two-big img {
+    height: 100px;
+    margin: 10px 0;
+  }
+
+  .big-3 h1,
+  .two-big h1 {
+    font-size: 14px;
+  }
+
+  .big-3 h2,
+  .two-big h2 {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    padding: 2px 10px;
+  }
+
+  .navigation a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .cap-logo-content {
+    height: 250px;
+  }
+
+  .cap-logo-text {
+    padding: 0 5px;
+    font-size: 12px;
+  }
+
+  .button button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .main-content {
+    margin: 0 5px;
+  }
+
+  .home-right-side-content {
+    margin: 10px 5px;
+  }
+
+  .text-area button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .cap-logo-right {
+    height: 80px;
+  }
+
+  .big-3 img,
+  .two-big img {
+    height: 80px;
+    margin: 5px 0;
+  }
+
+  .big-3 h1,
+  .two-big h1 {
+    font-size: 12px;
+  }
+
+  .big-3 h2,
+  .two-big h2 {
+    font-size: 10px;
+  }
+}
