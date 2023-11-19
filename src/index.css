@@ -108,7 +108,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  aligg-items: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
