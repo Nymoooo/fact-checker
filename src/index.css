@@ -108,11 +108,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
+  margin-bottom: 20px;
   height: 100%;
   width: 100%;
 }
 .main-split-left {
+  margin-right: 10px;
   height: 100%;
   width: 100%;
 }
